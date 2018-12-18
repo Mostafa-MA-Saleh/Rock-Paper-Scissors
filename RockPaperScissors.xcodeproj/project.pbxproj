@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		06D9010B20E833F800621873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D9010A20E833F800621873 /* main.m */; };
+		06D9011320E8345900621873 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D9011220E8345900621873 /* Game.m */; };
+		06D9011620E8346C00621873 /* Turn.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D9011520E8346C00621873 /* Turn.m */; };
+		06D9011920E8364D00621873 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D9011820E8364D00621873 /* Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06D9010720E833F800621873 /* RSPGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RSPGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D9010720E833F800621873 /* RockPaperScissors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RockPaperScissors; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D9010A20E833F800621873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06D9011120E8345900621873 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		06D9011220E8345900621873 /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		06D9011420E8346C00621873 /* Turn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Turn.h; sourceTree = "<group>"; };
+		06D9011520E8346C00621873 /* Turn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Turn.m; sourceTree = "<group>"; };
+		06D9011720E8364D00621873 /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		06D9011820E8364D00621873 /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +50,7 @@
 		06D900FE20E833F800621873 = {
 			isa = PBXGroup;
 			children = (
-				06D9010920E833F800621873 /* RSPGame */,
+				06D9010920E833F800621873 /* RockPaperScissors */,
 				06D9010820E833F800621873 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +58,31 @@
 		06D9010820E833F800621873 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06D9010720E833F800621873 /* RSPGame */,
+				06D9010720E833F800621873 /* RockPaperScissors */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06D9010920E833F800621873 /* RSPGame */ = {
+		06D9010920E833F800621873 /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
 				06D9010A20E833F800621873 /* main.m */,
+				06D9011120E8345900621873 /* Game.h */,
+				06D9011220E8345900621873 /* Game.m */,
+				06D9011420E8346C00621873 /* Turn.h */,
+				06D9011520E8346C00621873 /* Turn.m */,
+				06D9011720E8364D00621873 /* Controller.h */,
+				06D9011820E8364D00621873 /* Controller.m */,
 			);
-			path = RSPGame;
+			path = RockPaperScissors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06D9010620E833F800621873 /* RSPGame */ = {
+		06D9010620E833F800621873 /* RockPaperScissors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06D9010E20E833F800621873 /* Build configuration list for PBXNativeTarget "RSPGame" */;
+			buildConfigurationList = 06D9010E20E833F800621873 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
 			buildPhases = (
 				06D9010320E833F800621873 /* Sources */,
 				06D9010420E833F800621873 /* Frameworks */,
@@ -77,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = RSPGame;
+			name = RockPaperScissors;
 			productName = RSPGame;
-			productReference = 06D9010720E833F800621873 /* RSPGame */;
+			productReference = 06D9010720E833F800621873 /* RockPaperScissors */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06D9010220E833F800621873 /* Build configuration list for PBXProject "RSPGame" */;
+			buildConfigurationList = 06D9010220E833F800621873 /* Build configuration list for PBXProject "RockPaperScissors" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06D9010620E833F800621873 /* RSPGame */,
+				06D9010620E833F800621873 /* RockPaperScissors */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D9010B20E833F800621873 /* main.m in Sources */,
+				06D9011320E8345900621873 /* Game.m in Sources */,
+				06D9011620E8346C00621873 /* Turn.m in Sources */,
+				06D9011920E8364D00621873 /* Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06D9010220E833F800621873 /* Build configuration list for PBXProject "RSPGame" */ = {
+		06D9010220E833F800621873 /* Build configuration list for PBXProject "RockPaperScissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06D9010C20E833F800621873 /* Debug */,
@@ -264,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06D9010E20E833F800621873 /* Build configuration list for PBXNativeTarget "RSPGame" */ = {
+		06D9010E20E833F800621873 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06D9010F20E833F800621873 /* Debug */,
